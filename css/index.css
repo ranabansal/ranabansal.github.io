@@ -1,0 +1,188 @@
+/* GENERAL PAGE CSS */
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+
+/* TOPBAR CSS */
+#topbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#topbar img {
+	margin: 10px 20px;
+	width: 30px;
+	height: auto;
+}
+
+#topbar a {
+	float: right;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 20px;
+}
+
+#topbar a:hover { /* CSS for when you hover over topbar links */
+	border-bottom: 3px solid #000;
+	font-style: italic;
+}
+
+
+
+
+/* GENERAL SECTION CSS */
+.flex, .section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section {
+	height: 92%;
+	width: 92%;
+	padding: 4%;
+}
+
+
+
+
+/* SECTION ONE CSS */
+
+#one {
+	background-color: #f6c137;
+	color: #000;
+	flex-direction: column;
+}
+
+#one p {
+	font-size: 20px;
+}
+
+
+
+
+/* SECTION TWO CSS */
+
+#two {
+	background-image: url('../media/Memorial_Church.jpg');
+	background-size: 100% 100%;
+}
+
+/*#box {
+	background-color: #D8D8D8;
+	width: 400px;
+	min-height: 340px;
+	padding: 20px;
+	flex-direction: column;
+
+	/* Drop Shadow CSS */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+
+#box p {
+	width: 240px;
+}
+
+
+
+
+/* SECTION THREE CSS */
+
+#three {
+	background-color: #b6c8d1;
+}
+
+#three img {
+	height: 200px;
+	width: auto;
+	padding: 20px;
+}
+
+
+
+#three h2 {
+	color: #3bc2d8;
+}
+
+.work {
+	width: 500px;
+	height: 100%;
+	padding: 10px;
+	background-color: #F4A254;
+	float: left;
+	flex-direction: row;
+}
+
+
+
+#five h1 {
+	font-size: 60px;
+}
+
+/* Footer CSS */
+html, body { 
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	height: 100%; 
+}
+
+/*body > #container { 
+	height: auto; 
+	min-height: 100%; 
+}*/
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: auto;
+ margin-top: auto;
+ float: right;
+ /*text-transform: uppercase;*/
+ font-weight: 400;
+ font-size: 14px;
+ margin: 10px;
+}
+
+#footer a {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 10px;
+}
+
+#content { 
+	padding-bottom: 15px;
+	background-color: #454c73; 
+}
+
